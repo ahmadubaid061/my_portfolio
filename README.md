@@ -15,4 +15,12 @@ This repository contains the source code for my personal portfolio, a responsive
 - Frontend: HTML5, CSS, JavaScript
 - Responsiveness: CSS Media Queries
 - Tools: VS Code
+  
+# Contact
+Reach out to me:
+- Email: ahmadubaidedu@gmail.com
+- GitHub: ahmadubaid061
+- Website: https://ahmadubaid061.github.io/my_portfolio/
+- LinkedIn: ahmad-ubaid061
 - Hosting: GitHub Pages
+
