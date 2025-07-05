@@ -11,7 +11,7 @@ This repository contains the source code for my personal portfolio, a responsive
 - Clean UI:
   Minimalist and user-friendly design for accessibility.
 
-Technologies;
+# Technologies;
 - Frontend: HTML5, CSS, JavaScript
 - Responsiveness: CSS Media Queries
 - Tools: VS Code
