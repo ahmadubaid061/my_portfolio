@@ -498,6 +498,9 @@ textarea.form-control {
     display: block;
     opacity: 1;
   } */
+  section{
+    min-height: auto;
+  }
   #backToTopBtn {
     display: block;
     position: fixed;
@@ -562,6 +565,10 @@ textarea.form-control {
     grid-template-columns: repeat(1, 1fr);
     height: auto;
   }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
   .contact-container {
     flex-direction: column;
     gap: 30px;
@@ -575,4 +582,5 @@ textarea.form-control {
     font-size: 0.9rem;
   }
 }
+
 
