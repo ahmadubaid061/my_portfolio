@@ -365,7 +365,7 @@ nav > a.fa.fa-github {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 30px;
   margin-top: 40px;
 }
@@ -575,3 +575,4 @@ textarea.form-control {
     font-size: 0.9rem;
   }
 }
+
