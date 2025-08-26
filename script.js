@@ -19,13 +19,31 @@ if (expandbtn && clickbtn) {
 }
 
 //-------------------------------------------------------------------------------------------------------- ✅ Smooth Scroll for All Nav Links
-document.querySelectorAll(".nav-link").forEach((link) => {
-  link.addEventListener("click", function (e) {
+// document.querySelectorAll(".nav-link").forEach((link) => {
+//   link.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     const targetSection = document.querySelector(this.getAttribute("href"));
+//     if (targetSection) {
+//       targetSection.scrollIntoView({ behavior: "smooth" });
+//     }
+//   });
+// });
+//----------------------------------------------------------------------------------------------------------------------now using event propagation  for scroll 
+//event propagation is a technique involves two steps
+//1- add event listener to the parent element of all the links inthis case to the ul tag of the navigation with class "nav-menu"
+
+//2- select the target element on which we clicked and apply the event
+
+document.querySelector(".nav-menu").addEventListener("click", function (e) {
+  e.preventDefault();
+  // e.target is the link on which we clicked
+  if (e.target.classList.contains("nav-link")) {
     e.preventDefault();
-    const targetSection = document.querySelector(this.getAttribute("href"));
+    const targetSection = document.querySelector(e.target.getAttribute("href"));
     if (targetSection) {
       targetSection.scrollIntoView({ behavior: "smooth" });
     }
-  });
+  }
 });
+
 
